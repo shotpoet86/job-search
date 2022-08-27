@@ -1,11 +1,9 @@
 <template>
-  <MainNav nav="Main Nav"></MainNav>
-  <MainNav nav="Main Nav"></MainNav>
-  <main-nav nav="Main K"></main-nav>
+  <MainNav />
 </template>
 
 <script>
-import MainNav from "@/components/MainNav";
+import MainNav from "./components/MainNav.vue";
 
 export default {
   name: "App",
