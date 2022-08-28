@@ -1,4 +1,5 @@
-/*import { evenOrOdd, multiply, total } from "@/components/playground";
+/*
+import { evenOrOdd, multiply, total } from "@/components/playground";
 
 describe("basic math", () => {
   it("add two numbers", () => {
@@ -31,4 +32,5 @@ describe("basic math", () => {
       expect(total).toStrictEqual([4, 6, 8, 10, 12, 14]);
     });
   });
-});*/
+});
+*/

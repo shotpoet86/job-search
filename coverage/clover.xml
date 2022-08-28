@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1661578343224" clover="3.2.0">
-  <project timestamp="1661578343224" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="12" coveredelements="12" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
-    <file name="playground.js" path="/home/devkitvm/WebstormProjects/vue/job-search/src/components/playground.js">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="6" type="stmt"/>
+<coverage generated="1661642496413" clover="3.2.0">
+  <project timestamp="1661642496413" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="MainNav.vue" path="/home/devkitvm/WebstormProjects/vue/job-search/src/components/MainNav.vue">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
