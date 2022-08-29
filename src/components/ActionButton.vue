@@ -9,8 +9,5 @@
 <script>
 export default {
   name: "ActionButton",
-  data() {
-    return {};
-  },
 };
 </script>
