@@ -25,7 +25,8 @@
           </ul>
         </nav>
         <div class="flex items-center h-full ml-auto">
-          <ActionButton />
+          <ProfileImage v-if="isLoggedIn"></ProfileImage>
+          <ActionButton v-else />
         </div>
       </div>
     </div>
@@ -34,11 +35,13 @@
 
 <script>
 import ActionButton from "@/components/ActionButton";
+import ProfileImage from "@/components/ProfileImage";
 
 export default {
   name: "MainNav",
   components: {
     ActionButton,
+    ProfileImage,
   },
   data() {
     return {
@@ -53,6 +56,7 @@ export default {
         "Jobs",
       ],
       key: 0,
+      isLoggedIn: false,
     };
   },
 };
